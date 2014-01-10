@@ -1,0 +1,192 @@
+.bootmeyz{
+}
+/*.navbar-form{
+	margin-top:0px;
+	margin-bottom:0px;
+}*/
+.meyz-nav .navbar-brand{
+	padding:0;
+}
+.meyz-nav-left{
+	padding:10px 15px;
+}
+.meyz-nav .navbar-form{
+	/*margin:0;*/
+	/*padding:0;*/
+	padding-top:0;
+	padding-bottom:0;
+	padding-right:0;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:0;
+/*	margin-right:0;*/
+	border:none;
+}
+.meyz-nav-left>.navbar-form>button{
+	float:left;
+	margin-left:5px;
+}
+.meyz-nav-left>.navbar-form>.form-group{
+	float:left;
+	width:200px;
+	margin-bottom:0;
+}
+.meyz-nav-right{
+	width:170px;
+	padding-left:0;
+}
+
+
+.meyz-search>.input-group{
+	width:170px;
+}
+
+
+/* -- NEW Styles --*/
+.meyz-nav-left1{
+	width:200px;
+}
+.meyz-nav1 .navbar-form{
+	padding:0;
+	margin:0;
+	border:none;
+}
+.meyz-nav1 .navbar-toggle{
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.meyz-nav1 .navbar-brand{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.meyz-limit{
+	width:200px;
+}
+@media (max-width: 767px){
+.meyz-nav-left1 .navbar-form .form-group {
+	margin-bottom: 0;
+}
+.meyz-nav-left1{
+	width:75%;
+}
+}
+
+/* -- ALTERNATE Styles --*/
+.meyz-nav-left2{
+	width:200px;
+}
+.meyz-nav2 .navbar-form{
+	padding:0;
+	margin:0;
+	border:none;
+}
+.meyz-nav2 .navbar-toggle{
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.meyz-nav2 .navbar-brand{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.meyz-limit{
+	width:200px;
+}
+@media (max-width: 767px){
+.meyz-nav-left2 .navbar-form .form-group {
+	margin-bottom: 0;
+}
+.meyz-nav-left2{
+	width:75%;
+}
+}
+
+.meyz-nav2 .navbar-header{
+	float:right;
+}
+
+/* -- OLD Styles -- */
+
+	.mytable{
+		overflow: hidden;
+	}
+	.sort { cursor:pointer;  }
+
+	.sort div { 
+		height:16px; 
+		width:16px; 
+		margin-top:-2px;  
+		background-image:url(../img/ui-icons_454545_256x240.png); 
+		background-position:-128px 0px; 
+		background-repeat:no-repeat; 
+		position: absolute;
+		left: 5px;
+		top: 12px;
+	}
+
+	#tblheader { padding: 0px;  border-bottom: 1px solid #dddddd; }
+	 #tblfooter,#tblfooter1 { margin-top:10px; }
+	.datarow:last-child{ border-bottom: 0px; }
+	
+	.pheader {padding:10px 0px 10px 0px; }
+	.pheader select{ width:60px;}
+	.rowcell{ float: left; text-align: center; padding: 10px 8px; width: 120px; overflow:visible; }
+	.header{ font-size: 15px; position: relative; padding-left: 23px; text-align: left; }
+	.oversize .rowcell {  }
+	.datarow {
+		border-bottom: 1px solid #f2f2f2 !important;
+		background: #fff;
+	     -webkit-transition: background-color 300ms linear;
+	     -moz-transition: background-color 300ms linear;
+	     -o-transition: background-color 300ms linear;
+	     -ms-transition: background-color 300ms linear;
+	     transition: background-color 300ms linear;
+	}
+	.datarow:hover {
+		background: #f1f1f1;
+	}	
+	.ui-button{ font-size:12px !important; padding:2px 10px !important;}
+	.rowcell .ui-button{ font-size:13px !important; padding:10px 10px !important;}
+	.ui-menu-item{ font-size:13px !important;}
+
+	.pignate, .pignate1 {
+	width: 450px !important;
+	float: left !important;
+	text-align: left;
+	}
+
+	.odel { width:40px; padding-left:10px; float:left;}
+	.oshop,.olevel,.otax,.opercent { float:left;}
+	.oshop{ width:480px;}
+	.olevel { width:70px; text-align:center;}
+	.otax{ width:350px; margin-left:20px; }
+	.opercent { width:120px; text-align:center;}
+	
+	#mButton {padding:7px;float:left; background:#fff; margin:1px 0px; border-radius:0 4px 4px 0; border-left:1px solid #ccc;}
+	.paytax {float:left; border-radius:4px; background:#E6E6E6;}
+	
+	.padding { padding:10px; }
+	
+	.hpopover{ cursor:pointer; }
+	.pagination a { cursor:pointer; }
+	.addss{
+		text-align: right !important;
+	}
+	.dtbtn .btn { width:28px !important; text-align:center !important; color:#C0C0C0 !important; }
+	.dtbtn .btn { padding-left: 6px !important;}
+	
+
+
+
+	.odd { background:#DFDFDF;}
+	
+	.minigroup button { height:30px !important; }
+	div.btn-group[data-toggle=buttons-radio] input[type=radio] {
+	  display:    block;
+	  position:   absolute;
+	  top:        0;
+	  left:       0;
+	  width:      100%;
+	  height:     100%;
+	  opacity:    hidden;
+	  visibility: hidden;
+	}
