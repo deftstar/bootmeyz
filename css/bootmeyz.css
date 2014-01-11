@@ -104,6 +104,26 @@
 	float:right;
 }
 
+
+.meyz-table{
+	display: table;
+	width: 100%;
+}
+.meyz-table .thead{
+	display: table-header-group;
+}
+	.meyz-table .thead .th{
+		display: table-cell;
+	}
+.meyz-table .tbody{
+	display: table-row-group;
+}
+	.meyz-table .tbody .tr{
+		display: table-row;
+	}
+		.meyz-table .tbody .tr .td{
+			display: table-cell;
+		}
 /* -- OLD Styles -- */
 
 	.mytable{
